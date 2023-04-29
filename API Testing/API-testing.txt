@@ -1,0 +1,58 @@
+#What is API Testing?
+API testing is a type of software testing that involves testing the application programming interfaces (APIs) that enable communication between different software components or systems. 
+APIs are used to exchange data and facilitate interactions between different applications, databases, and third-party services.
+API testing involves validating the behavior, functionality, performance, and security of the APIs. This includes testing the request and response formats, HTTP status codes, error handling, authentication, authorization, and other parameters that define the API's behavior.
+
+#How API testing is performed?
+API testing can be performed manually or using automated tools. 
+API testing tools can simulate API calls and responses, and verify the correctness of the output. API testing can be performed using different techniques and methods, depending on the type and complexity of the APIs being tested. 
+However, some of the common steps involved in API testing include:
+1. Identify the API endpoints and methods: The first step is to identify the API endpoints, the HTTP methods (such as GET, POST, PUT, DELETE) used to interact with the API, and the input/output parameters.
+2. Define the test scenarios and test cases: Based on the API documentation, functional requirements, and business use cases, test scenarios and test cases are defined to test the API's functionality, behavior, and performance.
+3. Prepare the test environment: The test environment should be set up to simulate the real-world conditions under which the API will be used. This includes configuring the API endpoint, mock servers, test data, and other necessary resources.
+4. Execute the test cases: The test cases are executed using tools or API testing frameworks. The tool sends HTTP requests to the API endpoint with the specified input parameters and verifies the response received.
+5. Verify the response and results: The response received from the API is verified against the expected output, status codes, and error messages. The results of the test cases are documented and reported.
+6. Test for security and performance: APIs should be tested for security vulnerabilities, such as SQL injection, cross-site scripting, and other attacks. Performance testing should also be performed to measure the API's response time, throughput, and scalability under different loads.
+7. Debug and troubleshoot issues: If issues are identified during the testing, debugging techniques are used to isolate and troubleshoot the issues. Issues are logged, reported, and fixed.
+
+#API Testing Tools
+There are many tools available for API testing, both open-source and commercial. Here are some of the most popular API testing tools:
+Postman: Postman is a popular API testing tool that allows developers and testers to create and execute API tests quickly and easily. 
+         It offers a user-friendly interface to create and execute test cases, and supports both REST and SOAP APIs.
+SoapUI: SoapUI is an open-source tool used for functional testing, performance testing, and security testing of APIs. 
+        It supports REST, SOAP, and JMS APIs and provides a user-friendly interface to create and execute test cases.
+
+JMeter: Apache JMeter is an open-source tool used for load testing, functional testing, and performance testing of APIs. 
+        It supports HTTP, FTP, JMS, JDBC, and SOAP protocols and provides a user-friendly interface to create and execute test cases.
+Swagger: Swagger is an open-source tool used for API testing and documentation. 
+         It offers a user-friendly interface to create and execute test cases, and generates documentation for the API.
+Rest-Assured: Rest-Assured is a Java-based open-source library used for testing RESTful APIs. 
+              It provides a simple and intuitive API to create and execute test cases, and supports JSON and XML formats.
+Karate DSL: Karate DSL is a open-source testing tool that allows developers to create and execute API tests in a readable and easy-to-understand syntax. 
+            It supports REST, SOAP, and GraphQL APIs and can be integrated with CI/CD pipelines.
+Assertible: Assertible is a cloud-based testing tool that offers end-to-end testing solutions for APIs. 
+            It supports REST and GraphQL APIs and provides a user-friendly interface to create and execute test cases.
+
+These are just a few of the many API testing tools available in the market. The choice of tool depends on the specific requirements of the project and the budget available for testing.
+
+#API Testing Frameworks
+API testing frameworks are sets of libraries, tools, and conventions used to simplify the creation and execution of API tests. 
+They provide a structure and a standard approach to testing APIs, making it easier for developers and testers to create, maintain, and execute API tests. 
+Here are some of the most popular API testing frameworks:
+
+TestNG: TestNG is a Java-based testing framework that supports API testing. 
+        It provides a simple and intuitive way to write and execute API tests, and supports various annotations and assertions to validate the test results.
+JUnit: JUnit is another Java-based testing framework that supports API testing. 
+       It provides a framework for writing and running repeatable tests, and supports assertions to validate the test results.
+RestAssured: RestAssured is a Java-based library used for testing RESTful APIs. 
+             It provides a simple and intuitive way to create and execute API tests, and supports JSON and XML formats.
+Karate DSL: Karate DSL is a testing framework used for API testing. 
+            It provides a readable syntax and supports various protocols such as REST, SOAP, and GraphQL.
+Pytest: Pytest is a Python-based testing framework that supports API testing. 
+        It provides a simple and easy-to-use interface for creating and executing API tests, and supports various assertions to validate the test results.
+Behave: Behave is a Python-based testing framework that supports API testing. 
+        It provides a natural language syntax to describe the behavior of the APIs, and supports various assertions to validate the test results.
+Mocha: Mocha is a JavaScript-based testing framework that supports API testing. 
+       It provides a simple and intuitive way to create and execute API tests, and supports various assertions to validate the test results.
+
+These are just a few of the many API testing frameworks available in the market. The choice of framework depends on the specific requirements of the project, the programming language used, and the experience and expertise of the development team.
