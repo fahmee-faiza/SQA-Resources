@@ -7,3 +7,6 @@ Software Quality Assurance (SQA) Engineer plays a crucial role in ensuring the r
 2. https://danashby.co.uk/page/5/
 3. https://angiejones.tech/
 4. https://lisacrispin.com/agile-testing-blog/
+
+### SQA Podcast:
+https://testingpodcast.com/category/test-talks/
